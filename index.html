@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="parent">
+      <h2>Bookmark your favourite websites</h2>
+      <form action="">
+        <div>
+        <label for="name">Site Name</label>
+        <input type="text" id="name" />
+      </div>
+      <div>
+        <label for="url">Site URL</label>
+        <input type="text" id="url" />
+        </div>
+        <button id="submit">submit</button>
+      </form>
+
+      <table>
+        <tr>
+          <th>id</th>
+          <th>name</th>
+          <th>url</th>
+          <th>delete</th>
+        </tr>
+
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
